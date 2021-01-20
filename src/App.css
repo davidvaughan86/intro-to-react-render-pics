@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.meme-Gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  outline: 3px solid gold;
+  align-items: center;
+  
+  
+}
+.body {
+  background-color: black;
+}
+
+.meme-frame {
+  max-width: 75%;
+  outline: 3px solid gold;
+  
+}
+
+
+.meme-frame img {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 600px )
+{
+  .meme-Gallery {
+    flex-direction: row;
+  }
+  .meme-frame {
+    max-width: 25%;
+  }
+  
+};
